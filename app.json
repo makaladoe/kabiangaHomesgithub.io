@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "KabiangaHomes",
+    "slug": "KabiangaHomes",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/One.jpeg",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff",
+      "text": "Connect with KabiangaHomes"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.france_dev24.KabiangaHomes"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "5e1f5db0-13d4-4151-9ea3-4e25d29eeb1e"
+      }
+    }
+  }
+}
